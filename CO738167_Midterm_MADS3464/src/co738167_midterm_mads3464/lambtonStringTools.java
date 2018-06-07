@@ -31,5 +31,55 @@ public class lambtonStringTools {
      
      
      }
+
+
+public class binaryToDecimal {
+    
+    public int binaryToDecimal(int binary)
+    {
+    int decimal = 0;
+    int power = 0;
+    
+    while(true)
+    {
+        if(binary==0)
+        {
+            break;
+        }
+            else
+            {
+                    int temp = binary%10;
+                    decimal += temp*Math.pow(2,power);
+                    binary = binary/10;
+                    power++;
+                    
+                    }
+        }
+    return decimal;
+    }
+ 
+    
+   
+}
+
+
+public class Initials 
+{
+    static void printInitials(String name)
+    {
+        if(name.length() == 0)
+            return;
+        
+        System.out.println(Character.toUpperCase(name.charAt(0)));
+        
+        for(int i=1;
+                i<name.length()-1; i++)
+            if(name.charAt(i)==' ')
+                System.out.println(" " + Character.toUpperCase(name.charAt(i+1)));
+        
+    }
+    
+        
+}
     
 }

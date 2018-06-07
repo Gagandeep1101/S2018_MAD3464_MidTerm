@@ -31,12 +31,10 @@ public class CO738167_Midterm_MADS3464 {
     }*/
             
     {
+        Initials I = new Initials();
         String name = "Gagandeep Kaur Sandhu";
-         printInitials(name);
-    }
-
-    private static void printInitials(String name) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         I.printInitials(name);
+         
     }
     
 }
