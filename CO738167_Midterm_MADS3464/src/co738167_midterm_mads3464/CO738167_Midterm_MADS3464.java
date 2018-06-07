@@ -15,7 +15,11 @@ public class CO738167_Midterm_MADS3464 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        lambtonStringTools ls = new lambtonStringTools();
+        ls.reverse("lambton");
+        
+      
     }
     
 }
