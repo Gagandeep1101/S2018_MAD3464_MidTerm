@@ -14,12 +14,20 @@ public class CO738167_Midterm_MADS3464 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    /*{
         
         lambtonStringTools ls = new lambtonStringTools();
         ls.reverse("lambton");
         
       
+    }*/
+    {
+        binaryToDecimal btd = new binaryToDecimal();
+        
+        System.out.println("Decimal of 1101  :"+btd.binaryToDecimal(1101));
+        System.out.println("Decimal of 1011  :"+btd.binaryToDecimal(1011));
+        
     }
     
 }
