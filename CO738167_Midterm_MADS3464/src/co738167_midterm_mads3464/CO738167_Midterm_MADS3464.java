@@ -22,12 +22,21 @@ public class CO738167_Midterm_MADS3464 {
         
       
     }*/
-    {
+    /*{
         binaryToDecimal btd = new binaryToDecimal();
         
         System.out.println("Decimal of 1101  :"+btd.binaryToDecimal(1101));
         System.out.println("Decimal of 1011  :"+btd.binaryToDecimal(1011));
         
+    }*/
+            
+    {
+        String name = "Gagandeep Kaur Sandhu";
+         printInitials(name);
+    }
+
+    private static void printInitials(String name) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
